@@ -45,3 +45,5 @@ Existen dos opciones para realizarlo
 4. **Prueba de éxito:** Crea un archivo de texto en el escritorio del contenedor llamado *PRUEBA\_LOGRADA.txt* con un mensaje para el profesor.
 
    <img width="779" height="470" alt="Captura de pantalla 2026-05-08 144048" src="https://github.com/user-attachments/assets/1484ce2d-7ac5-4edb-89ad-160bfefc3ee7" />
+# Reflexión
+Aparte que es el protocolo estandar para administrar servidores de produccion, SSH se utiliza más por la seguridad, eficiencia y automatización que aporta.
