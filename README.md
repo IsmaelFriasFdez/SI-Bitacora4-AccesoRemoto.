@@ -17,3 +17,17 @@
 4. Vamos a verificar que todos los contenedores están funcionando correctamente con docker ps
 
 # \<imagen\>
+# Paso 2: Ejecución
+
+* Primer paso: Nos conectaremos al contenedor mediante el comando *sh alumno@localhost \-p 2222* o *sh alumno@127.0.0.1 \-p 2222*.  
+  La contraseña es : sistemas\_informaticos
+
+  # \<imagen\> 
+
+* Segundo paso: Ahora crearemos una llave de la siguiente manera: *ssh-keygen \-t ed25519 \-C "tu\_correo@ejemplo.com"*
+
+  # \<imagen\>
+
+* Tercer paso: Copiamos la llave pública de la siguiente manera: *ssh-copy-id \-p 2222 alumno@127.0.0.1*
+
+  # \<imagen\>
