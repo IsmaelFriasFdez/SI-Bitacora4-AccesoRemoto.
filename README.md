@@ -31,3 +31,16 @@
 * Tercer paso: Copiamos la llave pública de la siguiente manera: *ssh-copy-id \-p 2222 alumno@127.0.0.1*
 
   # \<imagen\>
+# Paso 3: Escritorio en el navegador
+
+Existen dos opciones para realizarlo
+
+1. Conexión: Abre tu cliente de Escritorio Remoto (*MSTSC* en Windows o Remmina en Linux) y apunta a localhost:3389.  
+     
+2. **Web:** Si tu cliente RDP falla, ve a *http://localhost:3000*. Verás el escritorio de Ubuntu dentro de tu navegador gracias a Apache Guacamole.
+
+   # \<imagen\>
+
+3. **Prueba de éxito:** Crea un archivo de texto en el escritorio del contenedor llamado *PRUEBA\_LOGRADA.txt* con un mensaje para el profesor.
+
+   # \<imagen\>
